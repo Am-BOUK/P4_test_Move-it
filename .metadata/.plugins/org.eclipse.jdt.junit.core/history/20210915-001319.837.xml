@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ParkingServiceTest" project="parkingsystem" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.parkit.parkingsystem.ParkingServiceTest" time="0.744" displayname="ParkingServiceTest" uniqueid="[engine:junit-jupiter]/[class:com.parkit.parkingsystem.ParkingServiceTest]">
+    <testcase name="processExitingVehicleTest" classname="com.parkit.parkingsystem.ParkingServiceTest" time="0.744" displayname="processExitingVehicleTest()" uniqueid="[engine:junit-jupiter]/[class:com.parkit.parkingsystem.ParkingServiceTest]/[method:processExitingVehicleTest()]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="com.parkit.parkingsystem.FareCalculatorServiceTest" tests="7" started="7" failures="3" errors="0" ignored="0">
+  <testsuite name="com.parkit.parkingsystem.FareCalculatorServiceTest" time="0.055">
+    <testcase name="calculateFareCarWithLessThanOneHourParkingTime" classname="com.parkit.parkingsystem.FareCalculatorServiceTest" time="0.022">
+      <failure>org.opentest4j.AssertionFailedError: expected: &lt;1.125&gt; but was: &lt;0.0&gt;
+	at com.parkit.parkingsystem.FareCalculatorServiceTest.calculateFareCarWithLessThanOneHourParkingTime(FareCalculatorServiceTest.java:110)
+</failure>
+    </testcase>
+    <testcase name="calculateFareUnkownType" classname="com.parkit.parkingsystem.FareCalculatorServiceTest" time="0.0"/>
+    <testcase name="calculateFareCar" classname="com.parkit.parkingsystem.FareCalculatorServiceTest" time="0.0"/>
+    <testcase name="calculateFareBike" classname="com.parkit.parkingsystem.FareCalculatorServiceTest" time="0.0"/>
+    <testcase name="calculateFareCarWithMoreThanADayParkingTime" classname="com.parkit.parkingsystem.FareCalculatorServiceTest" time="0.001">
+      <failure>org.opentest4j.AssertionFailedError: expected: &lt;36.0&gt; but was: &lt;0.0&gt;
+	at com.parkit.parkingsystem.FareCalculatorServiceTest.calculateFareCarWithMoreThanADayParkingTime(FareCalculatorServiceTest.java:124)
+</failure>
+    </testcase>
+    <testcase name="calculateFareBikeWithLessThanOneHourParkingTime" classname="com.parkit.parkingsystem.FareCalculatorServiceTest" time="0.001">
+      <failure>org.opentest4j.AssertionFailedError: expected: &lt;0.75&gt; but was: &lt;0.0&gt;
+	at com.parkit.parkingsystem.FareCalculatorServiceTest.calculateFareBikeWithLessThanOneHourParkingTime(FareCalculatorServiceTest.java:96)
+</failure>
+    </testcase>
+    <testcase name="calculateFareBikeWithFutureInTime" classname="com.parkit.parkingsystem.FareCalculatorServiceTest" time="0.024"/>
+  </testsuite>
+</testrun>
